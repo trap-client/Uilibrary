@@ -185,6 +185,7 @@ function module:NewWindow(nam)
 			TextLabel_3.Parent = yeslolhaha
 			TextLabel_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 			TextLabel_3.BorderSizePixel = 0
+			TextLabel_3.BackgroundTransparency = 1
 			TextLabel_3.Position = UDim2.new(-0.051282052, 0, 0.0340909101, 0)
 			TextLabel_3.Size = UDim2.new(0, 278, 0, 26)
 			TextLabel_3.Font = Enum.Font.GothamBold
