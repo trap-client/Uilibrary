@@ -180,6 +180,18 @@ function module:NewWindow(nam)
 			end)
 			
 		end
+		function TabFunctions:Label(text)
+			local TextLabel_3 = Instance.new("TextLabel")
+			TextLabel_3.Parent = yeslolhaha
+			TextLabel_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+			TextLabel_3.BorderSizePixel = 0
+			TextLabel_3.Position = UDim2.new(-0.051282052, 0, 0.0340909101, 0)
+			TextLabel_3.Size = UDim2.new(0, 278, 0, 26)
+			TextLabel_3.Font = Enum.Font.GothamBold
+			TextLabel_3.Text = "  "..text
+			TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+			TextLabel_3.TextSize = 14.000
+		end
 		return TabFunctions
 	end
 	return yeshaha
