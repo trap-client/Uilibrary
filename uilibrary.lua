@@ -27,7 +27,7 @@ function module:NewWindow(nam)
 	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel.BackgroundTransparency = 1.000
 	TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel.Position = UDim2.new(0.788148701, 0, 0.153845549, 0)
+	TextLabel.Position = UDim2.new(0.711744189, 0, 0.153845549, 0)
 	TextLabel.Size = UDim2.new(0, 110, 0, 18)
 	TextLabel.Font = Enum.Font.GothamBold
 	TextLabel.Text = nam
