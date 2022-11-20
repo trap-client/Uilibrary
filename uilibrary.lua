@@ -30,6 +30,7 @@ function module:NewWindow(nam)
 	TextLabel.Position = UDim2.new(0.711744189, 0, 0.153845549, 0)
 	TextLabel.Size = UDim2.new(0, 110, 0, 18)
 	TextLabel.Font = Enum.Font.GothamBold
+	TextLabel.TextXAlignment = Enum.TextXAlignment.Right
 	TextLabel.Text = nam
 	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel.TextSize = 14.000
